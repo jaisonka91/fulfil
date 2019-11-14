@@ -4,7 +4,7 @@
   "description": "",
   "main": "./src/app.js",
   "scripts": {
-    "start": "npm i && webpack-dev-server --mode development --content-base ./src"
+    "start": "webpack-dev-server --mode development --content-base ./src"
   },
   "author": "",
   "license": "ISC",
@@ -13,9 +13,7 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "webpack": "^4.41.2",
-    "webpack-dev-server": "^3.9.0"
-  },
-  "devDependencies": {
+    "webpack-dev-server": "^3.9.0",
     "@babel/core": "^7.7.2",
     "@babel/plugin-proposal-class-properties": "^7.7.0",
     "@babel/preset-env": "^7.7.1",
