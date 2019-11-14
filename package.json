@@ -4,7 +4,7 @@
   "description": "",
   "main": "./src/app.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --content-base ./src",
+    "start": "webpack-dev-server --mode development --content-base ./src"
   },
   "author": "",
   "license": "ISC",
