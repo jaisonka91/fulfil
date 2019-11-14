@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background: #bdc3c7;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+}
+td {
+  padding: 10px 10px;
+}
+.capitalize {
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 600;
+}
+.search {
+  width: 98%;
+  padding: 8px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #7f8c8d;
+  margin-bottom: 20px;
+}
