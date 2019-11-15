@@ -51,8 +51,7 @@ export default class Container extends Component {
   componentDidMount(){
     this.appendPage();
     window.onscroll = debounce(() => {
-      alert(window.innerHeight + document.documentElement.scrollTop+1 + ' - ' + document.documentElement.offsetHeight);
-      if (window.innerHeight + document.documentElement.scrollTop+1 > document.documentElement.offsetHeight){
+      if (window.innerHeight + document.documentElement.scrollTop+5 > document.documentElement.offsetHeight){
         this.appendPage();
       }
     }, 300)
